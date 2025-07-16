@@ -45,9 +45,6 @@
 
 /* Header styles */
 
-.header{
-}
-
 /* Navbar styles */
 .navbar{
     justify-content: space-between;
@@ -95,4 +92,48 @@
 
 .banner-image{
     width: 100%;
+}
+
+/* main section styles */
+main{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+/* teams section styles */
+.teams{
+    gap: 73px;
+    align-items: center;
+    margin-top: 85px;
+}
+
+.teams-title{
+    font-size: 2.8125rem;
+    margin-bottom: 24px;
+}
+#quick{
+    font-weight: 500;
+}
+
+#our, #feature{
+    font-weight: 600;
+}
+.teams-description{
+    font-size: 1rem;
+    margin-bottom: 38px;
+    max-width: 537px;
+}
+
+.teams-images{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+
+/* responsive sections */
+
+@media screen and (max-width:576px){
+    .navbar, .nav-items{
+        flex-direction: column;
+    }
 }
