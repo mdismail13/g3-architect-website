@@ -135,5 +135,15 @@ main{
 @media screen and (max-width:576px){
     .navbar, .nav-items{
         flex-direction: column;
+        text-align: center;
+    }
+    .teams{
+        flex-direction: column-reverse;
+    }
+    .teams-content{
+        text-align: center;
+    }
+    .teams-images{
+        grid-template-columns: 1fr;
     }
 }
