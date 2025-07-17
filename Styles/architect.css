@@ -182,6 +182,7 @@ main{
     position: relative;
     right: 92px;
     bottom: 120px;
+    text-align: center;
 
 
 }
@@ -302,5 +303,8 @@ main{
     .sp-logos{
         flex-direction: column;
         gap: 50px;
+    }
+    .attract-box{
+        left: 92px;
     }
 }
