@@ -169,7 +169,32 @@ main{
     box-shadow: 10px 10px 10px #727272;
 }
 
+.attract-box{
+    padding: 0px 42px 45px 42px;
+    background-color: #FF900E;
+    color: white;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+    position: relative;
+    right: 92px;
+    bottom: 120px;
 
+
+}
+
+.attract-title{
+    font-size: 4.0625rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.attract-subtitle{
+    font-size: 1.5625rem;
+    font-weight: 500;
+}
 /* Some facts section styles */
 
 .some-title{
