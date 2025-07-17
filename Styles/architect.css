@@ -236,7 +236,10 @@ main{
 
 .sp-logos{
     justify-content: space-between;
+    align-items: center;
 }
+
+
 
 /* responsive sections */
 
@@ -261,5 +264,10 @@ main{
 
     .feature-image img{
         width: 100%;
+    }
+
+    .sp-logos{
+        flex-direction: column;
+        gap: 50px;
     }
 }
