@@ -169,6 +169,7 @@ main{
     box-shadow: 10px 10px 10px #727272;
 }
 
+
 /* Some facts section styles */
 
 .some-title{
@@ -198,6 +199,18 @@ main{
     flex: 1;
 }
 
+.sc-title{
+    font-size: 2.8125rem;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.sc-description{
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
 /* responsive sections */
 
 @media screen and (max-width:576px){
@@ -213,5 +226,13 @@ main{
     }
     .teams-images{
         grid-template-columns: 1fr;
+    }
+
+    .feature, .some-rewards{
+        flex-direction: column;
+    }
+
+    .feature-image img{
+        width: 100%;
     }
 }
